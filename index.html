@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeAlpha Image Gallery - Mohammed Khidir</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>CodeAlpha Image Gallery</h1>
+    <p>Stunning photo collection by Mohammed Khidir</p>
+  </header>
+
+  <main class="gallery">
+    <div class="gallery-item"><img src="https://picsum.photos/id/1015/400/300" alt="Gallery 1" /></div>
+    <div class="gallery-item"><img src="https://picsum.photos/id/1016/400/300" alt="Gallery 2" /></div>
+    <div class="gallery-item"><img src="https://picsum.photos/id/1018/400/300" alt="Gallery 3" /></div>
+    <div class="gallery-item"><img src="https://picsum.photos/id/1020/400/300" alt="Gallery 4" /></div>
+    <div class="gallery-item"><img src="https://picsum.photos/id/1024/400/300" alt="Gallery 5" /></div>
+    <div class="gallery-item"><img src="https://picsum.photos/id/1031/400/300" alt="Gallery 6" /></div>
+  </main>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" />
+    <div class="navigation">
+      <button id="prev">❮</button>
+      <button id="next">❯</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
