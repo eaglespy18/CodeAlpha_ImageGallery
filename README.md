@@ -32,8 +32,8 @@ The gallery is designed to be **responsive** across mobile, tablet, and desktop 
 ---
 
 ## 🚀 Live Demo
-🔗 [View Live Project](#)  
-*(You’ll replace this with your GitHub Pages or Netlify link once deployed.)*
+🔗 [View Live Project]
+(https://github.com/eaglespy18/CodeAlpha_ImageGallery)
 
 ---
 
