@@ -133,3 +133,14 @@ header {
 .show-arrows .nav-arrow {
   opacity: 1;
 }
+
+
+/* Thumbnail fade control */
+.thumbnail-row {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.lightbox.show-thumbnails .thumbnail-row {
+  opacity: 1;
+}

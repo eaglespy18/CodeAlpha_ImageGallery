@@ -88,13 +88,21 @@ lightbox.addEventListener("click", (e) => {
 nextBtn.addEventListener("click", nextImage);
 prevBtn.addEventListener("click", prevImage);
 
-// Fade arrows in/out
-let arrowTimeout;
+// Fade arrows + thumbnails in/out on mouse movement
+let fadeTimeout;
+const lightboxEl = document.getElementById("lightbox");
 
-lightbox.addEventListener("mousemove", () => {
-  lightbox.classList.add("show-arrows");
-  clearTimeout(arrowTimeout);
-  arrowTimeout = setTimeout(() => {
-    lightbox.classList.remove("show-arrows");
-  }, 2000);
-});
+function showControls() {
+  lightboxEl.classList.add("show-arrows");
+  lightboxEl.classList.add("show-thumbnails");
+
+  clearTimeout(fadeTimeout);
+  fadeTimeout = setTimeout(() => {
+    lightboxEl.classList.remove("show-arrows");
+    lightboxEl.classList.remove("show-thumbnails");
+  }, 2000); // hide after 2s of inactivity
+}
+
+lightboxEl.addEventListener("mousemove", showControls);
+document.addEventListener("keydown", showControls);
+
