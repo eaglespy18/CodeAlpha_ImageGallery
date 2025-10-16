@@ -1,13 +1,14 @@
-// Select all images in the gallery
 const galleryItems = document.querySelectorAll(".gallery-item img");
 const lightbox = document.getElementById("lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
 const closeBtn = document.querySelector(".close");
 const thumbnailRow = document.getElementById("thumbnail-row");
+const prevBtn = document.getElementById("prev-btn");
+const nextBtn = document.getElementById("next-btn");
 
 let currentIndex = 0;
 
-// Open lightbox when an image is clicked
+// Open lightbox when image is clicked
 galleryItems.forEach((item, index) => {
   item.addEventListener("click", () => {
     openLightbox(index);
@@ -21,7 +22,7 @@ function openLightbox(index) {
   createThumbnails();
 }
 
-// Update the main lightbox image
+// Update image
 function updateLightboxImage() {
   lightboxImg.src = galleryItems[currentIndex].src;
   updateActiveThumbnail();
@@ -48,7 +49,6 @@ function createThumbnails() {
   updateActiveThumbnail();
 }
 
-// Highlight the active thumbnail
 function updateActiveThumbnail() {
   const thumbnails = thumbnailRow.querySelectorAll("img");
   thumbnails.forEach((t, i) => {
@@ -66,7 +66,7 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
-// Next and previous image functions
+// Next and previous
 function nextImage() {
   currentIndex = (currentIndex + 1) % galleryItems.length;
   updateLightboxImage();
@@ -77,13 +77,24 @@ function prevImage() {
   updateLightboxImage();
 }
 
-// Optional: click outside image to close
+// Click outside to close
 lightbox.addEventListener("click", (e) => {
   if (e.target === lightbox) {
     lightbox.style.display = "none";
   }
 });
-// On-screen arrow navigation
-document.getElementById("next-btn").addEventListener("click", nextImage);
-document.getElementById("prev-btn").addEventListener("click", prevImage);
 
+// On-screen arrow navigation
+nextBtn.addEventListener("click", nextImage);
+prevBtn.addEventListener("click", prevImage);
+
+// Fade arrows in/out
+let arrowTimeout;
+
+lightbox.addEventListener("mousemove", () => {
+  lightbox.classList.add("show-arrows");
+  clearTimeout(arrowTimeout);
+  arrowTimeout = setTimeout(() => {
+    lightbox.classList.remove("show-arrows");
+  }, 2000);
+});
