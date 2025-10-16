@@ -40,6 +40,7 @@ This gallery displays personal photos beautifully with a fullscreen lightbox, th
 **👨‍💻 Developer:** Mohammed Khidir  
 **📧 Email:** [alhassankhidir@gmail.com](mailto:alhassankhidir@gmail.com)  
 **🌐 GitHub:** [eaglespy18](https://github.com/eaglespy18)
+**linkdIn:** [ALAHASSAN MOHAMMED KHIDIR](https://www.linkedin.com/in/alhassan-mohammed-khidir-a00619264/)
 
 ---
 
