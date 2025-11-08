@@ -57,6 +57,9 @@ steps to  Deploy on GitHub Pages
 4. Click **Save**.  
 5. Your gallery will be live shortly!
 
+
+steps to  Deploy on Netlify
+
 ### 🌐 Deploy on Netlify
 1. Go to [Netlify](https://www.netlify.com/).  
 2. Click **Add new site → Import existing project**.  
