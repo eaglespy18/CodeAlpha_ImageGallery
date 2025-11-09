@@ -35,7 +35,7 @@ This gallery displays personal photos beautifully with a fullscreen lightbox, th
 
 ---
 
-## 🧠 Developer Info
+## 🧠 The Developer's Info
 
 **👨‍💻 Developer:** Mohammed Khidir  
 **📧 Email:** [alhassankhidir@gmail.com](mailto:alhassankhidir@gmail.com)  
