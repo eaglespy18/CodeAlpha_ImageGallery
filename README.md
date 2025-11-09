@@ -89,7 +89,7 @@ Copy code
 
 ## 🏁 Future Enhancements
 
-- Add image captions or descriptions  
+- Add image captions or image descriptions  
 - Enable image upload feature  
 - Add dark/light mode toggle  
 
