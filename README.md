@@ -68,7 +68,7 @@ steps to  Deploy on Netlify
 
 ---
 
-## 📂 Project Structure
+## 📂 The Project Structure
 
 CodeAlpha_ImageGallery/
 │
