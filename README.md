@@ -24,6 +24,8 @@ This gallery displays personal photos beautifully with a fullscreen lightbox, th
 
 ## 💡 How It Works
 
+   Steps:
+
 1. Click on any image in the gallery to open it in fullscreen mode.  
 2. Use:
    - **Arrow keys** → navigate between images  
