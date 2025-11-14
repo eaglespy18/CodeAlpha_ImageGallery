@@ -48,7 +48,7 @@ This gallery displays personal photos beautifully with a fullscreen lightbox, th
 
 You can deploy this project using **GitHub Pages** or **Netlify**:
 
-steps to  Deploy on GitHub Pages
+Steps to  Deploy on GitHub Pages
 
 ### ▶️ Deploy on GitHub Pages
 1. Go to your GitHub repo.  
