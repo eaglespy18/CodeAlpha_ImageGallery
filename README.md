@@ -12,8 +12,6 @@ This gallery displays personal photos beautifully with a fullscreen lightbox, th
 - 🧩 Dynamic thumbnails for quick navigation  
 - 🌗 Auto-fading navigation arrows for clean viewing  
 
----
-
 ## 🛠️ Technologies Used
 
 - **HTML5**
