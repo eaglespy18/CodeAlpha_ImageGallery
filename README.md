@@ -20,8 +20,6 @@ This gallery displays personal photos beautifully with a fullscreen lightbox, th
 - **CSS3 (Flexbox + Grid)**
 - **JavaScript (Vanilla JS)**
 
----
-
 ## 💡 How It Works
 
    Steps:
