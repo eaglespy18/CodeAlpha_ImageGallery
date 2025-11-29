@@ -33,8 +33,6 @@ This gallery displays personal photos beautifully with a fullscreen lightbox, th
    - **On-screen arrows** → manually navigate  
 3. Thumbnails appear below the main image for quick access.
 
----
-
 ## 🧠 The Developer's Info
 
 **👨‍💻 Developer:** Alhassan Mohammed Khidir  
