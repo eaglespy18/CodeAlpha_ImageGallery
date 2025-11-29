@@ -36,8 +36,6 @@ This gallery displays personal photos beautifully with a fullscreen lightbox, th
 **🌐 GitHub:** [eaglespy18](https://github.com/eaglespy18)
 **linkdIn:** [ALAHASSAN MOHAMMED KHIDIR](https://www.linkedin.com/in/alhassan-mohammed-khidir-a00619264/)
 
----
-
 ## 🌍 Deployment
 
 You can deploy this project using **GitHub Pages** or **Netlify**:
