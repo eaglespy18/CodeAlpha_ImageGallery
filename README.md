@@ -77,7 +77,6 @@ CodeAlpha_ImageGallery/
 yaml
 Copy code
 
----
 
 ## 🏁 Future Enhancements
 
