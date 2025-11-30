@@ -3,7 +3,7 @@
 A responsive and elegant **Image Gallery** built by **Alhassan Mohammed Khidir** as part of the CodeAlpha internship projects.  
 This gallery displays personal photos beautifully with a fullscreen lightbox, thumbnail navigation, and keyboard controls.
 
-## 🚀 Features
+## 🚀 Features of the project
 
 - ✅ Responsive grid layout for images  
 - 🖼️ Fullscreen lightbox view with smooth transitions  
