@@ -58,7 +58,6 @@ steps to  Deploy on Netlify
 3. Connect your GitHub repo.  
 4. Click **Deploy**.
 
----
 
 ## 📂 The Project Structure
 
