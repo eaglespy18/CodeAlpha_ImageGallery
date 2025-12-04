@@ -84,7 +84,6 @@ Copy code
 - Enable image upload feature  
 - Add dark/light mode toggle  
 
----
 
 ⭐ **If you like this project, give it a star on GitHub!**  
 [https://github.com/eaglespy18/CodeAlpha_ImageGallery](https://github.com/eaglespy18/CodeAlpha_ImageGallery)
