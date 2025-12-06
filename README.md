@@ -77,7 +77,7 @@ yaml
 Copy code
 
 
-## 🏁 Future Enhancements
+## 🏁 Future Enhancements of the project 
 
 - Add image captions or image descriptions  
 - Enable image upload feature  
