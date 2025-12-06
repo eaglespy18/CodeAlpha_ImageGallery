@@ -85,4 +85,6 @@ Copy code
 
 
 ⭐ **If you like this project, give it a star on GitHub!**  
+
+**github link**
 [https://github.com/eaglespy18/CodeAlpha_ImageGallery](https://github.com/eaglespy18/CodeAlpha_ImageGallery)
