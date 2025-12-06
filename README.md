@@ -43,6 +43,9 @@ You can deploy this project using **GitHub Pages** or **Netlify**:
 Steps to  Deploy on GitHub Pages
 
 ### ▶️ Deploy on GitHub Pages
+
+steps;
+
 1. Go to your GitHub repo.  
 2. Open **Settings → Pages**.  
 3. Under **Source**, select `main` branch → `/root`.  
