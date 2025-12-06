@@ -53,6 +53,9 @@ Steps to  Deploy on GitHub Pages
 steps to  Deploy on Netlify
 
 ### 🌐 Deploy on Netlify
+
+steps to deploy on netlify;
+
 1. Go to [Netlify](https://www.netlify.com/).  
 2. Click **Add new site → Import existing project**.  
 3. Connect your GitHub repo.  
